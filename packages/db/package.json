@@ -21,8 +21,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc",
-    "push": "pnpm with-env drizzle-kit push",
-    "studio": "pnpm with-env drizzle-kit studio",
+    "push": "npm run with-env drizzle-kit push",
+    "studio": "npm run with-env drizzle-kit studio",
     "with-env": "dotenv -e ../../apps/api/.env --"
   },
   "dependencies": {
