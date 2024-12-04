@@ -1,0 +1,22 @@
+{
+  "extends": ["@repo/typescript-config/base.json"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "jsx": "react-native",
+    "types": ["nativewind/types"],
+    "checkJs": false,
+    "moduleSuffixes": [".ios", ".android", ".native", ""]
+  },
+  "include": [
+    ".",
+    "*.ts",
+    "*.js",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "types/nativewind.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}
